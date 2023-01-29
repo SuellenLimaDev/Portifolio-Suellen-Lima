@@ -1,3 +1,10 @@
+html {
+    position: relative;
+    width: 1152px;
+    height: 2041px;
+
+    background: #FFFFFF;
+}
 .header {}
 
 .header-top-rigth {}
@@ -127,7 +134,7 @@
     background: #EDF7FA;
 }
 
-.content-projects h3{
+.content-projects h3 {
     position: absolute;
     width: 152px;
     height: 60px;
@@ -142,6 +149,68 @@
     color: #21243D;
 }
 
+.ano {
+    position: absolute;
+    width: 62px;
+    height: 25px;
+    left: 410px;
+    top: 1372px;
+
+    background: #142850;
+    border-radius: 16px;
+}
+
+.ano h2 {
+    position: absolute;
+    width: 42px;
+    height: 60px;
+    left: 420px;
+    top: 1123px;
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.tipo {
+    position: absolute;
+    width: 374px;
+    height: 34px;
+    left: 498px;
+    top: 1137px;
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+    /* Light */
+
+    color: #8695A4;
+
+}
+
+.projects-work-rigth p {
+    position: absolute;
+    width: 594px;
+    height: 93px;
+    left: 410px;
+    top: 1188px;
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* Dark Color */
+
+    color: #21243D;
+}
 
 .projects-work {
     position: absolute;
@@ -158,7 +227,7 @@
 }
 
 .post-recents {
-    position: absolute;
+    /* position: absolute; */
     width: 129px;
     height: 60px;
     left: 148px;
@@ -175,7 +244,7 @@
 }
 
 .view-all {
-    position: absolute;
+    /* position: absolute; */
     width: 208px;
     height: 20px;
     left: 796px;
@@ -189,7 +258,7 @@
     color: #00A8CC;
 }
 
-footer {
+.footer {
     position: absolute;
     width: 1152px;
     height: 182px;
@@ -197,7 +266,7 @@ footer {
     top: 1859px;
 }
 
-footer div {
+.footer div {
     position: absolute;
     left: 0%;
     right: 0%;
@@ -206,7 +275,9 @@ footer div {
 
     background: #FFFFFF;
 }
-
+.icons-midias-sociais {
+    width: 30px;
+}
 .copyright {
 
     position: absolute;
