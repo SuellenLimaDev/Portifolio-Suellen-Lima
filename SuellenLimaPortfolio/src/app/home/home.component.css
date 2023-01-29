@@ -123,20 +123,37 @@
     height: 396px;
     left: 0px;
     top: 595px;
+
     background: #EDF7FA;
 }
 
-.content-projects {
+.content-projects h3{
     position: absolute;
     width: 152px;
     height: 60px;
     left: 148px;
     top: 1006px;
+
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 60px;
+    color: #21243D;
+}
+
+
+.projects-work {
+    position: absolute;
+    width: 305px;
+    height: 44px;
+    left: 410px;
+    top: 1077px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
     color: #21243D;
 }
 
